@@ -55,10 +55,10 @@
 
 							<ul class="menu-container">
                 <li class="menu-item"><a class="menu-link" href="/"><div>Home</div></a></li>
-								<li class="menu-item active"><a class="menu-link" href="/solution"><div>Solutions</div></a>
+								<li class="menu-item"><a class="menu-link" href="/solution"><div>Solutions</div></a>
 								<li class="menu-item"><a class="menu-link" href="#"><div>Services</div></a>
 								<li class="menu-item"><a class="menu-link" href="/blog"><div>Blog</div></a>
-								<li class="menu-item"><a class="menu-link" href="/events"><div>Events</div></a>
+								<li class="menu-item active"><a class="menu-link" href="/events"><div>Events</div></a>
 								<li class="menu-item"><a class="menu-link" href="#"><div>About VisionM</div></a>
 							</ul>
 						</nav>
@@ -87,7 +87,7 @@
 					<nav aria-label="breadcrumb">
 						<ol class="breadcrumb">
 							<li class="breadcrumb-item"><a href="/">Home</a></li>
-							<li class="breadcrumb-item active" aria-current="page"><a href="#">Solutions</a></li>
+							<li class="breadcrumb-item active" aria-current="page"><a href="#">Events</a></li>
 						</ol>
 					</nav>
 
@@ -101,45 +101,176 @@
 			<div class="content-wrap">
 				<div class="container">
 
-					<div class="row col-mb-50">
-						<div class="col-12">
-							Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper.
+          <div id="posts" class="post-grid row gutter-30">
+            <div class="entry col-lg-3 col-md-4 col-sm-6 col-12">
+							<div class="grid-inner">
+								<div class="entry-image">
+									<a href="{{ asset('images/blog/full/17.jpg') }}" data-lightbox="image"><img src="{{ asset('images/blog/grid/17.jpg') }}" alt="Standard Post with Image"></a>
+								</div>
+								<div class="entry-title">
+									<h2><a href="javascript:;">This is a Standard post with a Preview Image</a></h2>
+								</div>
+								<div class="entry-meta">
+									<ul>
+										<li><i class="uil uil-schedule"></i> 10th Feb 2021</li>
+										<li><a href="javascript:;#comments"><i class="uil uil-comments-alt"></i> 13</a></li>
+										<li><a href="#"><i class="uil uil-camera"></i></a></li>
+									</ul>
+								</div>
+								<div class="entry-content">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptatem, dolorem animi nisi autem blanditiis enim culpa reiciendis et explicabo tenetur!</p>
+									<a href="javascript:;" class="more-link">Read More</a>
+								</div>
+							</div>
 						</div>
-
-						<div class="col-md-6">
-							<h5>Half Width</h5>
-							Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.
+            <div class="entry col-lg-3 col-md-4 col-sm-6 col-12">
+							<div class="grid-inner">
+								<div class="entry-image">
+									<a href="{{ asset('images/blog/full/17.jpg') }}" data-lightbox="image"><img src="{{ asset('images/blog/grid/17.jpg') }}" alt="Standard Post with Image"></a>
+								</div>
+								<div class="entry-title">
+									<h2><a href="javascript:;">This is a Standard post with a Preview Image</a></h2>
+								</div>
+								<div class="entry-meta">
+									<ul>
+										<li><i class="uil uil-schedule"></i> 10th Feb 2021</li>
+										<li><a href="javascript:;#comments"><i class="uil uil-comments-alt"></i> 13</a></li>
+										<li><a href="#"><i class="uil uil-camera"></i></a></li>
+									</ul>
+								</div>
+								<div class="entry-content">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptatem, dolorem animi nisi autem blanditiis enim culpa reiciendis et explicabo tenetur!</p>
+									<a href="javascript:;" class="more-link">Read More</a>
+								</div>
+							</div>
 						</div>
-
-						<div class="col-md-6">
-							<h5>Half Width</h5>
-							Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.
+            <div class="entry col-lg-3 col-md-4 col-sm-6 col-12">
+							<div class="grid-inner">
+								<div class="entry-image">
+									<a href="{{ asset('images/blog/full/17.jpg') }}" data-lightbox="image"><img src="{{ asset('images/blog/grid/17.jpg') }}" alt="Standard Post with Image"></a>
+								</div>
+								<div class="entry-title">
+									<h2><a href="javascript:;">This is a Standard post with a Preview Image</a></h2>
+								</div>
+								<div class="entry-meta">
+									<ul>
+										<li><i class="uil uil-schedule"></i> 10th Feb 2021</li>
+										<li><a href="javascript:;#comments"><i class="uil uil-comments-alt"></i> 13</a></li>
+										<li><a href="#"><i class="uil uil-camera"></i></a></li>
+									</ul>
+								</div>
+								<div class="entry-content">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptatem, dolorem animi nisi autem blanditiis enim culpa reiciendis et explicabo tenetur!</p>
+									<a href="javascript:;" class="more-link">Read More</a>
+								</div>
+							</div>
 						</div>
-
-						<div class="w-100"></div>
-
-						<div class="col-md-8">
-							<h5>2/3 Width</h5>
-							Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper.
+            <div class="entry col-lg-3 col-md-4 col-sm-6 col-12">
+							<div class="grid-inner">
+								<div class="entry-image">
+									<a href="{{ asset('images/blog/full/17.jpg') }}" data-lightbox="image"><img src="{{ asset('images/blog/grid/17.jpg') }}" alt="Standard Post with Image"></a>
+								</div>
+								<div class="entry-title">
+									<h2><a href="javascript:;">This is a Standard post with a Preview Image</a></h2>
+								</div>
+								<div class="entry-meta">
+									<ul>
+										<li><i class="uil uil-schedule"></i> 10th Feb 2021</li>
+										<li><a href="javascript:;#comments"><i class="uil uil-comments-alt"></i> 13</a></li>
+										<li><a href="#"><i class="uil uil-camera"></i></a></li>
+									</ul>
+								</div>
+								<div class="entry-content">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptatem, dolorem animi nisi autem blanditiis enim culpa reiciendis et explicabo tenetur!</p>
+									<a href="javascript:;" class="more-link">Read More</a>
+								</div>
+							</div>
 						</div>
-
-						<div class="col-md-4">
-							<h5>1/3 Width</h5>
-							Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.
+            <div class="entry col-lg-3 col-md-4 col-sm-6 col-12">
+							<div class="grid-inner">
+								<div class="entry-image">
+									<a href="{{ asset('images/blog/full/17.jpg') }}" data-lightbox="image"><img src="{{ asset('images/blog/grid/17.jpg') }}" alt="Standard Post with Image"></a>
+								</div>
+								<div class="entry-title">
+									<h2><a href="javascript:;">This is a Standard post with a Preview Image</a></h2>
+								</div>
+								<div class="entry-meta">
+									<ul>
+										<li><i class="uil uil-schedule"></i> 10th Feb 2021</li>
+										<li><a href="javascript:;#comments"><i class="uil uil-comments-alt"></i> 13</a></li>
+										<li><a href="#"><i class="uil uil-camera"></i></a></li>
+									</ul>
+								</div>
+								<div class="entry-content">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptatem, dolorem animi nisi autem blanditiis enim culpa reiciendis et explicabo tenetur!</p>
+									<a href="javascript:;" class="more-link">Read More</a>
+								</div>
+							</div>
 						</div>
-
-						<div class="w-100"></div>
-
-						<div class="col-md-3">
-							<h5>1/4 Width</h5>
-							Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante.
+            <div class="entry col-lg-3 col-md-4 col-sm-6 col-12">
+							<div class="grid-inner">
+								<div class="entry-image">
+									<a href="{{ asset('images/blog/full/17.jpg') }}" data-lightbox="image"><img src="{{ asset('images/blog/grid/17.jpg') }}" alt="Standard Post with Image"></a>
+								</div>
+								<div class="entry-title">
+									<h2><a href="javascript:;">This is a Standard post with a Preview Image</a></h2>
+								</div>
+								<div class="entry-meta">
+									<ul>
+										<li><i class="uil uil-schedule"></i> 10th Feb 2021</li>
+										<li><a href="javascript:;#comments"><i class="uil uil-comments-alt"></i> 13</a></li>
+										<li><a href="#"><i class="uil uil-camera"></i></a></li>
+									</ul>
+								</div>
+								<div class="entry-content">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptatem, dolorem animi nisi autem blanditiis enim culpa reiciendis et explicabo tenetur!</p>
+									<a href="javascript:;" class="more-link">Read More</a>
+								</div>
+							</div>
 						</div>
-
-						<div class="col-md-9">
-							<h5>3/4 Width</h5>
-							Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper.
+            <div class="entry col-lg-3 col-md-4 col-sm-6 col-12">
+							<div class="grid-inner">
+								<div class="entry-image">
+									<a href="{{ asset('images/blog/full/17.jpg') }}" data-lightbox="image"><img src="{{ asset('images/blog/grid/17.jpg') }}" alt="Standard Post with Image"></a>
+								</div>
+								<div class="entry-title">
+									<h2><a href="javascript:;">This is a Standard post with a Preview Image</a></h2>
+								</div>
+								<div class="entry-meta">
+									<ul>
+										<li><i class="uil uil-schedule"></i> 10th Feb 2021</li>
+										<li><a href="javascript:;#comments"><i class="uil uil-comments-alt"></i> 13</a></li>
+										<li><a href="#"><i class="uil uil-camera"></i></a></li>
+									</ul>
+								</div>
+								<div class="entry-content">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptatem, dolorem animi nisi autem blanditiis enim culpa reiciendis et explicabo tenetur!</p>
+									<a href="javascript:;" class="more-link">Read More</a>
+								</div>
+							</div>
 						</div>
-					</div>
+            <div class="entry col-lg-3 col-md-4 col-sm-6 col-12">
+							<div class="grid-inner">
+								<div class="entry-image">
+									<a href="{{ asset('images/blog/full/17.jpg') }}" data-lightbox="image"><img src="{{ asset('images/blog/grid/17.jpg') }}" alt="Standard Post with Image"></a>
+								</div>
+								<div class="entry-title">
+									<h2><a href="javascript:;">This is a Standard post with a Preview Image</a></h2>
+								</div>
+								<div class="entry-meta">
+									<ul>
+										<li><i class="uil uil-schedule"></i> 10th Feb 2021</li>
+										<li><a href="javascript:;#comments"><i class="uil uil-comments-alt"></i> 13</a></li>
+										<li><a href="#"><i class="uil uil-camera"></i></a></li>
+									</ul>
+								</div>
+								<div class="entry-content">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptatem, dolorem animi nisi autem blanditiis enim culpa reiciendis et explicabo tenetur!</p>
+									<a href="javascript:;" class="more-link">Read More</a>
+								</div>
+							</div>
+						</div>
+          </div>
 
 				</div>
 			</div>
