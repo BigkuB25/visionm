@@ -54,11 +54,11 @@
 						</div>
 						<nav class="primary-menu">
 							<ul class="menu-container">
-								<li class="menu-item active"><a class="menu-link" href="/"><div>Home</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="/solution"><div>Solutions</div></a>
+                <li class="menu-item active"><a class="menu-link" href="/"><div>Home</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="{{ url('solution') }}"><div>Solutions</div></a>
 								<li class="menu-item"><a class="menu-link" href="#"><div>Services</div></a>
-								<li class="menu-item"><a class="menu-link" href="/blog"><div>Blog</div></a>
-								<li class="menu-item"><a class="menu-link" href="/events"><div>Events</div></a>
+								<li class="menu-item"><a class="menu-link" href="{{ url('blog') }}"><div>Blog</div></a>
+								<li class="menu-item"><a class="menu-link" href="{{ url('events') }}"><div>Events</div></a>
 								<li class="menu-item"><a class="menu-link" href="#"><div>About VisionM</div></a>
 								<!-- <li class="menu-item"><a class="menu-link" href="#"><div>Contact us</div></a>
 									<ul class="sub-menu-container" data-class="up-lg:not-dark">
