@@ -1,0 +1,17 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+.breadcrumb-item a{
+  color: #fff !important;
+}
+
+.breadcrumb-item.active {
+  color: #fff !important;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: #fff !important;
+}
