@@ -13,22 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/solution', function () {
-  return view('solution');
-});
-
-Route::get('/blog', function () {
-  return view('blog');
-});
-
-Route::get('/events', function () {
-  return view('events');
-});
-
-Route::get('/contact', function () {
-  return view('contact');
-});
+Route::get('/', [App\Http\Controllers\MainController::class, 'index']);
+Route::get('/solution', [App\Http\Controllers\MainController::class, 'solution']);
+Route::get('/contact', [App\Http\Controllers\MainController::class, 'contact']);
+Route::get('/lang/{locale}', [App\Http\Controllers\MainController::class, 'lang']);

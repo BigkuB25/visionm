@@ -28109,7 +28109,7 @@ h3.titular-title, .titular-title.h3 {
   --cnvs-title-block-border-size: 40px;
   --cnvs-heading-block-border: 2px solid var(--cnvs-heading-color);
   --cnvs-heading-block-span-color: var(--cnvs-contrast-600);
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .heading-block h1, .heading-block .h1,
 .heading-block h2,
@@ -28165,7 +28165,7 @@ h3.titular-title, .titular-title.h3 {
 .heading-block::after {
   content: "";
   display: block;
-  margin-top: 30px;
+  margin-top: 10px;
   width: var(--cnvs-title-block-border-size);
   border-top: var(--cnvs-heading-block-border);
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en-US">
+<html dir="ltr" lang="{{ app()->getLocale() }}">
   @include('layouts.header')
   <body class="stretched">
 

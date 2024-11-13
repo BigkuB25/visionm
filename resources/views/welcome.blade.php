@@ -80,8 +80,8 @@
             </div>
           </div>
           <div class="col-md-5">
-            <h4 class="text-muted mb-2">เกี่ยวกับบริษัท</h4>
-            <span>เราคือผู้เชี่ยวชาญด้านโครงสร้างพื้นฐานไอทีที่พร้อมให้บริการครบวงจร ตั้งแต่การออกแบบระบบเซิร์ฟเวอร์ เครือข่าย (ทั้งสายและไร้สาย) ศูนย์ข้อมูล และระบบสายสัญญาณ ไปจนถึงการให้คำปรึกษาและติดตั้ง เพื่อให้ธุรกิจของคุณสามารถเข้าถึงและใช้งานข้อมูลได้อย่างรวดเร็ว ปลอดภัย และมีประสิทธิภาพสูงสุด เราเข้าใจความต้องการที่แตกต่างกันของแต่ละธุรกิจ จึงมุ่งมั่นที่จะออกแบบโซลูชันที่ตอบโจทย์เฉพาะเจาะจง เพื่อขับเคลื่อนธุรกิจของคุณให้เติบโตอย่างยั่งยืน</span>
+            <h4 class="text-muted mb-2">@lang('content.about_title')</h4>
+            <span>@lang('content.about_content')</span>
           </div>
         </div>
       </div>
@@ -90,8 +90,8 @@
 
       <div class="section bg-transparent">
         <div class="container">
-          <div class="heading-block mb-6 text-center border-0" data-heading="M">
-            <h3 class="text-transform-none ls-0">Technology's Expertise</h3>
+          <div class="heading-block mb-6 text-center border-0" data-heading="S">
+            <h3 class="text-transform-none ls-0">@lang('content.our_service_title')</h3>
           </div>
         </div>
 
@@ -103,7 +103,7 @@
               </div>
               <div class="col-xl-4" style="padding: 20px 0 0 20px;">
                 <h3>IT Infrastructure</h3>
-                <p>ออกแบบ ให้คําปรึกษาและติดตั้งระบบโครงสร้างพื้นฐานทาง IT ภายในองค์กร ให้ทุกธุรกิจสามารถ เชื่อมต่อและเข้าถึงข้อมูลได้อย่างรวดเร็วและปลอดภัย ทั้งในส่วนของ Server, Network (Wire & Wireless), Data Center และ Cabling System</p>
+                <p>@lang('content.our_service_content_1')</p>
               </div>
             </div>
           </div>
@@ -114,7 +114,7 @@
               </div>
               <div class="col-xl-4" style="padding: 20px 0 0 20px;">
                 <h3>IT Security</h3>
-                <p>ออกแบบ ให้คําปรึกษาและติดตั้งระบบรักษาความปลอดภัย ปกป้องความปลอดภัยของระบบเครือข่าย ให้ธุรกิจสามารถทํางานได้อย่างต่อเนื่องปราศจากภัยร้ายรบกวน ทั้งในส่วนของ Data Center Security, System Security, Network Security และ Endpoint Security</p>
+                <p>@lang('content.our_service_content_2')</p>
               </div>
             </div>
           </div>
@@ -125,7 +125,7 @@
               </div>
               <div class="col-xl-4" style="padding: 20px 0 0 20px;">
                 <h3>Video Surveillance</h3>
-                <p>ออกแบบ ให้คําปรึกษาและติดตั้งระบบกล้องวงจรปิดสําหรับองค์กรขนาดใหญ่ (Enterprise Solution) เพื่อรักษาความปลอดภัยพื้นที่ที่สําคัญ พร้อมระบบบริหารจัดและเฝ้าติดตามแบบอัจฉริยะ (Intelligence)</p>
+                <p>@lang('content.our_service_content_3')</p>
               </div>
             </div>
           </div>
@@ -136,65 +136,10 @@
               </div>
               <div class="col-xl-4" style="padding: 20px 0 0 20px;">
                 <h3>Application Software Development</h3>
-                <p>มีทีมงานที่มีความเชี่ยวชาญที่คอยให้คําปรึกษาระบบแอพพลิเคชั่น ตามความต้องการของลูกค้า</p>
+                <p>@lang('content.our_service_content_4')</p>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-
-      <div class="section p-0 mt-0 bg-transparent" style="border-top: 1px solid #EEE; border-bottom: 1px solid #EEE;">
-        <div class="row align-items-stretch">
-          <div class="col-lg-6 text-center col-padding" style="background: url('/images/sections/1.jpg') center center no-repeat; background-size: cover;">
-            <div>&nbsp;</div>
-          </div>
-
-          <div class="col-lg-6 col-padding">
-            <div>
-              <div style="position: relative;">
-                <div class="heading-block border-0" data-heading="A">
-                  <h3 class="text-transform-none ls-0">About Us</h3>
-                </div>
-              </div>
-
-              <div class="row g-5">
-                <div class="col-lg-10 col-md-8">
-                  <div class="feature-box fbox-plain">
-                    <div class="fbox-icon">
-                      <a href="#"><i class="icon-et-globe"></i></a>
-                    </div>
-                    <div class="fbox-content">
-                      <h3>All over the World</h3>
-                      <p>Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-10 col-md-8">
-                  <div class="feature-box fbox-plain">
-                    <div class="fbox-icon">
-                      <a href="#"><i class="icon-et-gears"></i></a>
-                    </div>
-                    <div class="fbox-content">
-                      <h3>Fully Customisable</h3>
-                      <p>Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-10 col-md-8">
-                  <div class="feature-box fbox-plain">
-                    <div class="fbox-icon">
-                      <a href="#"><i class="icon-et-document"></i></a>
-                    </div>
-                    <div class="fbox-content">
-                      <h3>Helpfull Documentation</h3>
-                      <p>Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
         </div>
       </div>
 
@@ -321,7 +266,7 @@
       <div class="section p-0 bg-transparent">
         <div class="container">
           <div class="text-center">
-            <h1>OUR PARTNERS</h1>
+            <h1>@lang('content.our_partners')</h1>
           </div>
           <div class="d-flex justify-content-center">
             <div>

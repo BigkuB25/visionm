@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('title')
-  Contact Us
+  @lang('menu.contact')
 @endsection
 
 @section('nav')
@@ -15,13 +15,13 @@
     <div class="page-title-row">
 
       <div class="page-title-content">
-        <h1 class="text-white">Contact Us</h1>
+        <h1 class="text-white">@lang('menu.contact')</h1>
       </div>
 
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="/">Home</a></li>
-          <li class="breadcrumb-item active" aria-current="page"><a href="#">Contact Us</a></li>
+          <li class="breadcrumb-item"><a href="/">@lang('menu.home')</a></li>
+          <li class="breadcrumb-item active" aria-current="page"><a href="#">@lang('menu.contact')</a></li>
         </ol>
       </nav>
 
@@ -39,11 +39,8 @@
               <img src="{{ asset('images/pin.png') }}" alt="Feature Icon">
             </div>
             <div class="fbox-content">
-              <h3 class="text-transform-none ls-0 mb-4">ที่อยู่</h3>
-              <address>
-                9/3-4, 3rd Floor, Vorasin Building,<br> Soi Yasoop 2,
-                Vipavadirangsit Road, Chomphon, Jatujak, Bangkok 10900
-              </address>
+              <h3 class="text-transform-none ls-0 mb-4">@lang('content.address_title')</h3>
+              <address>@lang('content.address_content_1')</address>
             </div>
           </div>
         </div>
@@ -53,9 +50,9 @@
               <img src="{{ asset('images/phone-call.png') }}" alt="Feature Icon">
             </div>
             <div class="fbox-content">
-              <h3 class="text-transform-none ls-0 mb-4">เบอร์โทรศัพท์</h3>
-              <abbr title="Phone Number">สำนักงาน</abbr> <a href="tel:+66 2103 6165">(+66) 2103 6165</a><br>
-              <abbr title="Phone Number">มือถือ</abbr> <a href="tel:+668 7327 4343">(+66)8 7327 4343</a><br>
+              <h3 class="text-transform-none ls-0 mb-4">@lang('content.phone_title')</h3>
+              <abbr title="Phone Number">@lang('content.phone_office')</abbr> <a href="tel:+66 2103 6165">(+66) 2103 6165</a><br>
+              <abbr title="Phone Number">@lang('content.phone_mobile')</abbr> <a href="tel:+668 7327 4343">(+66)8 7327 4343</a><br>
             </div>
           </div>
         </div>
@@ -65,8 +62,8 @@
               <img src="{{ asset('images/email.png') }}" alt="Feature Icon">
             </div>
             <div class="fbox-content">
-              <h3 class="text-transform-none ls-0 mb-4">อีเมล</h3>
-              <abbr title="Phone Number">Email</abbr> <a href="mailto:Sittichai@visionm.co.th">Sittichai@visionm.co.th</a><br>
+              <h3 class="text-transform-none ls-0 mb-4">@lang('content.email_title')</h3>
+              <abbr title="Phone Number">@lang('content.email_title')</abbr> <a href="mailto:Sittichai@visionm.co.th">Sittichai@visionm.co.th</a><br>
             </div>
           </div>
         </div>

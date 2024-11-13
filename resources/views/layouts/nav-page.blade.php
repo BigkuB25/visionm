@@ -9,6 +9,19 @@
           </a>
         </div>
 
+        <div class="header-misc">
+          <div class="header-misc-icon">
+            @switch(app()->getLocale())
+              @case('th')
+                <a href="{{ url('lang/en') }}"><img src="{{ URL::asset('/images/flags/us.svg') }}" class="me-2 rounded" height="20" alt="Header Language" height="16"></a>
+              @break
+              @case('en')
+                <a href="{{ url('lang/th') }}"><img src="{{ URL::asset('/images/flags/th.svg') }}" class="me-2 rounded" height="20" alt="Header Language" height="16"></a>
+              @break
+            @endswitch
+          </div>
+        </div>
+
         <div class="primary-menu-trigger">
           <button class="cnvs-hamburger" type="button" title="Open Mobile Menu">
             <span class="cnvs-hamburger-box"><span class="cnvs-hamburger-inner"></span></span>
