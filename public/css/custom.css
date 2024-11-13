@@ -15,3 +15,11 @@
 .breadcrumb-item + .breadcrumb-item::before {
   color: #fff !important;
 }
+
+.title-bottom {
+  width: 10%;
+  padding: 0 0 var(--cnvs-fancy-title-padding);
+  border-bottom: calc(var(--cnvs-fancy-title-border-size) * 2) solid var(--cnvs-themecolor);
+}
+
+
