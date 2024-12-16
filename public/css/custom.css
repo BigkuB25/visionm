@@ -22,4 +22,8 @@
   border-bottom: calc(var(--cnvs-fancy-title-border-size) * 2) solid var(--cnvs-themecolor);
 }
 
+.color-main {
+  color: #ffbe48 !important;
+}
+
 

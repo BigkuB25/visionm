@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('title')
-  Home
+  @lang('menu.home')
 @endsection
 
 @section('nav')
@@ -86,9 +86,67 @@
         </div>
       </div>
 
-      <div class="line"></div>
+      <div class="section bg-transparent border-top">
+        <div class="container">
+          <div class="text-center">
+            <h1>@lang('content.our_solutions')</h1>
+          </div>
+          <div class="row">
+            <div class="col-md-7">
+              <div class="heading-block">
+                <h2 class="color-main">Network</h2>
+              </div>
+              <p class="text-wrap mb-2">Networking is the backbone of an organization’s effectiveness infrastructure with the need to provide high speed and secure access to users to increasing dependence on internet connectivity for cloud-based services and data the importance of a robust, capable, scalable and security, the organizations also need the resilience supported by an advanced network platform that responds quickly to any circumstance, NetONE’s networking solutions most multiple software defined networking solution.</p>
+              <button class="button button-3d m-0" type="button">Read more</button>
+            </div>
+            <div class="col-md-5 ps-md-4">
+              <img src="{{ asset('images/global-network-online-communication-connection-63.jpg') }}" alt="">
+            </div>
+          </div>
+          <div class="divider"></div>
+          <div class="row">
+            <div class="col-md-5 ">
+              <img src="{{ asset('images/global-network-online-communication-connection-63.jpg') }}" alt="">
+            </div>
+            <div class="col-md-7 ps-md-4">
+              <div class="heading-block">
+                <h2 class="color-main">MOBILITY AND WIRELESS</h2>
+              </div>
+              <p class="text-wrap mb-2">Wireless networking is a foundation for the enterprise installations today and The evolution for Wi-FI 6 and Wi-FI 6E that adoption of extended unlicensed spectrum around the world. Users and applications today expect a constant, connected mobility, The key expected for wireless infrastructure are performance, simplify, automate, scale, reliable and secure your network experience from anywhere, anytime, and with any devices.</p>
+              <button class="button button-3d m-0" type="button">Read more</button>
+            </div>
 
-      <div class="section bg-transparent">
+          </div>
+          <div class="divider"></div>
+          <div class="row">
+            <div class="col-md-7">
+              <div class="heading-block">
+                <h2 class="color-main">SECURITY</h2>
+              </div>
+              <p class="text-wrap mb-2">NetONE Cybersecurity team has integrated comprehensive security solutions to provide advanced threat protection for customers, Our total solutions can protect threat at the Gateway, Network and Endpoint to defense against threat, malware and provide visibility to IT infrastructure, NetONE Cybersecurity solutions include.</p>
+              <button class="button button-3d m-0" type="button">Read more</button>
+            </div>
+            <div class="col-md-5 ps-md-4">
+              <img src="{{ asset('images/global-network-online-communication-connection-63.jpg') }}" alt="">
+            </div>
+          </div>
+          <div class="divider"></div>
+          <div class="row">
+            <div class="col-md-5">
+              <img src="{{ asset('images/global-network-online-communication-connection-63.jpg') }}" alt="">
+            </div>
+            <div class="col-md-7 ps-md-4">
+              <div class="heading-block">
+                <h2 class="color-main">COMPUTING AND CLOUD</h2>
+              </div>
+              <p class="text-wrap mb-2">NetONE Provide and Implement System Infrastructure Solution in deep Technical about Hyper Converged Infrastructure and Virtualization System in modern solution that is smarter, simpler, smaller and more efficient than ever before drive revenue & competitive advantage from your data with modern converged infrastructure Including Cloud Computing Solution in IaaS, SaaS, PaaS, Can Provide integration and Migration Environment in Best Practice Design by Landing Zone On Cloud, NetOne Computing and Cloud Solutions include.</p>
+              <button class="button button-3d m-0" type="button">Read more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section bg-transparent border-top">
         <div class="container">
           <div class="heading-block mb-6 text-center border-0" data-heading="S">
             <h3 class="text-transform-none ls-0">@lang('content.our_service_title')</h3>
@@ -143,116 +201,6 @@
         </div>
       </div>
 
-      <div class="section bg-transparent mt-0">
-        <div class="container">
-          <div class="row mt-2">
-            <div class="col-lg-6 p-0">
-              <!-- Youtube Video Link
-              ============================================= -->
-              <a href="https://www.youtube.com/watch?v=NS0txu_Kzl8" data-lightbox="iframe">
-                <img src="{{ asset('images/sections/video.jpg') }}" alt="Youtube Video"  style="box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.15); border-radius: 6px;">
-                <i class="bi-play" style="position: absolute; top: 50%; left: 50%; font-size: 60px; color: #FFF; margin-top: -45px; margin-left: -23px"></i>
-              </a>
-            </div>
-            <!-- Video Texts
-            ============================================= -->
-            <div class="col-lg-6" style="padding-left: 60px;">
-              <div class="heading-block mt-4 mb-4 border-0">
-                <h3 class="text-transform-none" style="font-size: 46px; font-weight: 700; letter-spacing: -2px; line-height: 58px">A small Video from Our Customers.</h3>
-              </div>
-              <p class="fw-normal">Interactively facilitate.<br>Tactical systems with compelling materials. Objectively re-engineer diverse relationships long-term impact methodologies.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="section parallax scroll-detect mt-6 mb-0 border-top-0">
-        <img src="{{ asset('images/sections/2.jpg') }}" class="parallax-bg">
-        <div class="container">
-
-          <div class="row col-mb-50 cleafix">
-            <div class="col-md-6 dark" style="padding-left: 60px;">
-              <div class="heading-block mb-4 border-0">
-                <h3 class="text-transform-none" style="font-size: 46px; font-weight: 700; letter-spacing: -2px; line-height: 58px">Collections from Our Customers.</h3>
-              </div>
-              <p>Appropriately implement user friendly e-markets and backend processes. Competently expedite competitive vortals rather than client-based testing procedures. Professionally matrix exceptional schemas vis-a-vis leveraged paradigms. Authoritatively coordinate just in time networks with strategic potentialities.</p>
-              <a href="#" class="button-link ms-0">Read More</a>
-            </div>
-
-            <div class="col-md-5 offset-md-1">
-              <h4 class="dark">Testimonials Scroller</h4>
-              <div class="fslider testimonial bg-white p-5 rounded" data-animation="slide" data-arrows="false">
-                <div class="flexslider">
-                  <div class="slider-wrap">
-                    <div class="slide">
-                      <p class="mb-4 font-primary">Great support, great documentation and you guys done a fantastic job in commenting everything, makes it very easy to customize, so thank you.</p>
-                      <h4 class="h6 mb-1 fw-bold text-uppercase ls-1">SmileyDot</h4>
-                      <small class="text-muted d-block mb-3">ThemeForest user</small>
-                      <div>
-                        <i class="bi-star-fill text-warning"></i>
-                        <i class="bi-star-fill text-warning"></i>
-                        <i class="bi-star-fill text-warning"></i>
-                        <i class="bi-star-fill text-warning"></i>
-                        <i class="bi-star-fill text-warning"></i>
-                      </div>
-                    </div>
-                    <div class="slide">
-                      <p class="mb-4 font-primary">I wish that I could choose more than one reason for my 5-star rating! The Design is great, the features are fantastic, the documentation top-notch.</p>
-                      <h4 class="h6 mb-1 fw-bold text-uppercase ls-1">georgewhoffman</h4>
-                      <small class="text-muted d-block mb-3">ThemeForest user</small>
-                      <div>
-                        <i class="bi-star-fill text-warning"></i>
-                        <i class="bi-star-fill text-warning"></i>
-                        <i class="bi-star-fill text-warning"></i>
-                        <i class="bi-star-fill text-warning"></i>
-                        <i class="bi-star-fill text-warning"></i>
-                      </div>
-                    </div>
-                    <div class="slide">
-                      <p class="mb-4 font-primary">Excellent Template really versatile and well documented. Makes anyone look like a design professional.</p>
-                      <h4 class="h6 mb-1 fw-bold text-uppercase ls-1">georgeuser077</h4>
-                      <small class="text-muted d-block mb-3">ThemeForest user</small>
-                      <div>
-                        <i class="bi-star-fill text-warning"></i>
-                        <i class="bi-star-fill text-warning"></i>
-                        <i class="bi-star-fill text-warning"></i>
-                        <i class="bi-star-fill text-warning"></i>
-                        <i class="bi-star-fill text-warning"></i>
-                      </div>
-                    </div>
-                    <div class="slide">
-                      <p class="mb-4 font-primary">This is the most robust template I've ever worked with. So much can be done with this multi-purpose package. Regular updates and enhancements add tremendous value.</p>
-                      <h4 class="h6 mb-1 fw-bold text-uppercase ls-1">rmandaro</h4>
-                      <small class="text-muted d-block mb-3">ThemeForest user</small>
-                      <div>
-                        <i class="bi-star-fill text-warning"></i>
-                        <i class="bi-star-fill text-warning"></i>
-                        <i class="bi-star-fill text-warning"></i>
-                        <i class="bi-star-fill text-warning"></i>
-                        <i class="bi-star-fill text-warning"></i>
-                      </div>
-                    </div>
-                    <div class="slide">
-                      <p class="mb-4 font-primary">I've been using Canvas for months now and it has exceeded my expectations. Their support has been great too.</p>
-                      <h4 class="h6 mb-1 fw-bold text-uppercase ls-1">kwelch2</h4>
-                      <small class="text-muted d-block mb-3">ThemeForest user</small>
-                      <div>
-                        <i class="bi-star-fill text-warning"></i>
-                        <i class="bi-star-fill text-warning"></i>
-                        <i class="bi-star-fill text-warning"></i>
-                        <i class="bi-star-fill text-warning"></i>
-                        <i class="bi-star-fill text-warning"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
       <div class="section p-0 m-0 pt-3">
         <div class="container">
           <div class="text-center">
@@ -263,38 +211,28 @@
         </div>
       </div>
 
-      <div class="section p-0 bg-transparent">
-        <div class="container">
-          <div class="text-center">
-            <h1>@lang('content.our_partners')</h1>
-          </div>
-          <div class="d-flex justify-content-center">
-            <div>
-              <img src="{{ asset('images/partners/partner-cisco-300x200-1.gif') }}" alt="">
-            </div>
-            <div>
-              <img src="{{ asset('images/partners/partner-microsoft-300x200-1.gif') }}" alt="">
-            </div>
-            <div>
-              <img src="{{ asset('images/partners/partner-checkpoint-300x200-1.gif') }}" alt="">
-            </div>
-            <div>
-              <img src="{{ asset('images/partners/partner-paloalto-300x200-1.gif') }}" alt="">
-            </div>
-            <div>
-              <img src="{{ asset('images/partners/partner-vm-300x200-1.gif') }}" alt="">
-            </div>
-          </div>
+      <div class="section m-0 bg-transparent" style="padding: 80px 0">
+        <div class="text-center">
+          <h1>@lang('content.our_partners')</h1>
+        </div>
+        <div id="oc-clients-full" class="owl-carousel owl-carousel-full image-carousel carousel-widget" data-margin="0" data-nav="false" data-pagi="false" data-loop="true" data-autoplay="2000" data-items-xs="2" data-items-sm="3" data-items-md="5" data-items-lg="5" data-items-xl="5">
+          <div class="oc-item"><a href="#"><img src="{{ asset('images/partners/partner-cisco-300x200-1.gif') }}" class="mx-auto w-auto" alt="Partner"></a></div>
+          <div class="oc-item"><a href="#"><img src="{{ asset('images/partners/partner-microsoft-300x200-1.gif') }}" class="mx-auto w-auto" alt="Partner"></a></div>
+          <div class="oc-item"><a href="#"><img src="{{ asset('images/partners/partner-checkpoint-300x200-1.gif') }}" class="mx-auto w-auto" alt="Partner"></a></div>
+          <div class="oc-item"><a href="#"><img src="{{ asset('images/partners/partner-paloalto-300x200-1.gif') }}" class="mx-auto w-auto" alt="Partner"></a></div>
+          <div class="oc-item"><a href="#"><img src="{{ asset('images/partners/partner-vm-300x200-1.gif') }}" class="mx-auto w-auto" alt="Partner"></a></div>
         </div>
       </div>
 
       <div class="section m-0" style="padding: 80px 0">
+        <div class="text-center">
+          <h1>@lang('content.customer_success')</h1>
+        </div>
         <div id="oc-clients-full" class="owl-carousel owl-carousel-full image-carousel carousel-widget" data-margin="0" data-nav="false" data-pagi="false" data-loop="true" data-autoplay="3000" data-items-xs="2" data-items-sm="3" data-items-md="5" data-items-lg="5" data-items-xl="5">
-          <div class="oc-item"><a href="#"><img src="{{ asset('images/clients/linkedin.svg') }}" class="mx-auto w-auto" height="24" alt="Brands"></a></div>
-          <div class="oc-item"><a href="#"><img src="{{ asset('images/clients/nat-geo.svg') }}" class="mx-auto w-auto" height="24" alt="Brands"></a></div>
-          <div class="oc-item"><a href="#"><img src="{{ asset('images/clients/jetblue.svg') }}" class="mx-auto w-auto" height="24" alt="Brands"></a></div>
-          <div class="oc-item"><a href="#"><img src="{{ asset('images/clients/zillow.svg') }}" class="mx-auto w-auto" height="24" alt="Brands"></a></div>
-          <div class="oc-item"><a href="#"><img src="{{ asset('images/clients/amazon.svg') }}" class="mx-auto w-auto" height="24" alt="Brands"></a></div>
+          <div class="oc-item"><a href="#"><img src="{{ asset('images/customer/exat-logo.png') }}" class="mx-auto w-auto" height="100" alt="Brands"></a></div>
+          <div class="oc-item"><a href="#"><img src="{{ asset('images/customer/redcross-logo.jpg') }}" class="mx-auto w-auto" height="100" alt="Brands"></a></div>
+          <div class="oc-item"><a href="#"><img src="{{ asset('images/customer/i-ea-t-logo.png') }}" class="mx-auto w-auto" height="100" alt="Brands"></a></div>
+          <div class="oc-item"><a href="#"><img src="{{ asset('images/customer/aot-logo.png') }}" class="mx-auto w-auto" height="100" alt="Brands"></a></div>
         </div>
       </div>
 

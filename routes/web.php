@@ -15,5 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [App\Http\Controllers\MainController::class, 'index']);
 Route::get('/solution', [App\Http\Controllers\MainController::class, 'solution']);
+Route::get('/service', [App\Http\Controllers\MainController::class, 'service']);
 Route::get('/contact', [App\Http\Controllers\MainController::class, 'contact']);
+Route::get('/about', [App\Http\Controllers\MainController::class, 'about']);
 Route::get('/lang/{locale}', [App\Http\Controllers\MainController::class, 'lang']);

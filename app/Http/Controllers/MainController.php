@@ -21,6 +21,14 @@ class MainController extends Controller
     return view('contact');
   }
 
+  public function about(){
+    return view('about');
+  }
+
+  public function service(){
+    return view('service');
+  }
+
   public function lang($locale)
   {
     if ($locale) {

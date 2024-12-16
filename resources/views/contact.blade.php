@@ -70,11 +70,66 @@
       </div>
     </div>
 
-    <div class="clear"></div>
+    <div class="line"></div>
 
     <div class="container">
       <div class="row">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15498.674541310997!2d100.5615345!3d13.7988384!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29d57dc9bd6e9%3A0xe843c520aebb71d4!2sVision%20M%20Technology%20Co.%2CLtd.!5e0!3m2!1sth!2sth!4v1731464127653!5m2!1sth!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="col-md-6">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15498.674541310997!2d100.5615345!3d13.7988384!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29d57dc9bd6e9%3A0xe843c520aebb71d4!2sVision%20M%20Technology%20Co.%2CLtd.!5e0!3m2!1sth!2sth!4v1731464127653!5m2!1sth!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col-md-6">
+          <div class="form-widget" data-alert-type="inline">
+            <div class="form-result"></div>
+
+            <form class="mb-0" id="template-contactform" name="template-contactform" action="#" method="post" novalidate="novalidate">
+
+              <div class="form-process">
+                <div class="css3-spinner">
+                  <div class="css3-spinner-scaler"></div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-4 form-group">
+                  <label for="template-contactform-name">@lang('contact.name') <small class="text-danger">*</small></label>
+                  <input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="form-control required">
+                </div>
+
+                <div class="col-md-4 form-group">
+                  <label for="template-contactform-email">@lang('contact.email') <small class="text-danger">*</small></label>
+                  <input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email form-control">
+                </div>
+
+                <div class="col-md-4 form-group">
+                  <label for="template-contactform-phone">@lang('contact.phone') <small class="text-danger">*</small></label>
+                  <input type="text" id="template-contactform-phone" name="template-contactform-phone" value="" class="form-control required">
+                </div>
+
+                <div class="w-100"></div>
+
+                <div class="col-md-12 form-group">
+                  <label for="template-contactform-subject">@lang('contact.subject') <small class="text-danger">*</small></label>
+                  <input type="text" id="template-contactform-subject" name="subject" value="" class="required form-control">
+                </div>
+
+                <div class="w-100"></div>
+
+                <div class="col-12 form-group">
+                  <label for="template-contactform-message">@lang('contact.message') <small class="text-danger">*</small></label>
+                  <textarea class="required form-control" id="template-contactform-message" name="template-contactform-message" rows="6" cols="30"></textarea>
+                </div>
+
+                <div class="col-12 form-group d-none">
+                  <input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="form-control">
+                </div>
+
+                <div class="col-12 form-group">
+                  <button class="button button-3d m-0" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
     </div>
 
