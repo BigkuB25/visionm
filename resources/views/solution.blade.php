@@ -37,7 +37,7 @@
           <div class="heading-block">
             <h2>Network</h2>
           </div>
-          <p class="text-wrap mb-2">Networking is the backbone of an organization’s effectiveness infrastructure with the need to provide high speed and secure access to users to increasing dependence on internet connectivity for cloud-based services and data the importance of a robust, capable, scalable and security, the organizations also need the resilience supported by an advanced network platform that responds quickly to any circumstance, NetONE’s networking solutions most multiple software defined networking solution.</p>
+          <p class="text-wrap mb-2">Networking is the backbone of an organization’s effectiveness infrastructure with the need to provide high speed and secure access to users to increasing dependence on internet connectivity for cloud-based services and data the importance of a robust, capable, scalable and security, the organizations also need the resilience supported by an advanced network platform that responds quickly to any circumstance, networking solutions most multiple software defined networking solution.</p>
           <button class="button button-3d m-0" type="button">Read more</button>
         </div>
         <div class="col-md-5 ps-md-4">
@@ -64,7 +64,7 @@
           <div class="heading-block">
             <h2>SECURITY</h2>
           </div>
-          <p class="text-wrap mb-2">NetONE Cybersecurity team has integrated comprehensive security solutions to provide advanced threat protection for customers, Our total solutions can protect threat at the Gateway, Network and Endpoint to defense against threat, malware and provide visibility to IT infrastructure, NetONE Cybersecurity solutions include.</p>
+          <p class="text-wrap mb-2">Cybersecurity team has integrated comprehensive security solutions to provide advanced threat protection for customers, Our total solutions can protect threat at the Gateway, Network and Endpoint to defense against threat, malware and provide visibility to IT infrastructure, NetONE Cybersecurity solutions include.</p>
           <button class="button button-3d m-0" type="button">Read more</button>
         </div>
         <div class="col-md-5 ps-md-4">
@@ -78,9 +78,9 @@
         </div>
         <div class="col-md-7 ps-md-4">
           <div class="heading-block">
-            <h2>COMPUTING AND CLOUD</h2>
+            <h2>VIDEO SURVEILLANCE</h2>
           </div>
-          <p class="text-wrap mb-2">NetONE Provide and Implement System Infrastructure Solution in deep Technical about Hyper Converged Infrastructure and Virtualization System in modern solution that is smarter, simpler, smaller and more efficient than ever before drive revenue & competitive advantage from your data with modern converged infrastructure Including Cloud Computing Solution in IaaS, SaaS, PaaS, Can Provide integration and Migration Environment in Best Practice Design by Landing Zone On Cloud, NetOne Computing and Cloud Solutions include.</p>
+          <p class="text-wrap mb-2">When you install a surveillance solution, you are looking for more than visibility. You want to alleviate concern and strengthen peace of mind in the face of day-to-day activities and unforeseen events. To achieve that, your video security system should give you the tools and confidence to protect products, places, and, most importantly, people. We are experts at incorporating video surveillance systems into a variety of environments that meet your needs, regardless of location size or safety requirements.</p>
           <button class="button button-3d m-0" type="button">Read more</button>
         </div>
 
