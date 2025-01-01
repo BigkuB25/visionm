@@ -2,13 +2,20 @@
 
 return [
   'title' => 'เกี่ยวกับเรา',
-  'description' => 'Admiration stimulated cultivated reasonable be projection possession of. Real no near room ye bred sake if some. Is arranging furnished knowledge agreeable so. Fanny as smile up small. It vulgar chatty simple months turned oh at change of. Astonished set expression solicitude way admiration.',
+  'description' => 'บริษัท วิชั่นเอ็ม เทคโนโลยี จำกัด เราเป็นบริษัทที่ให้บริการโซลูชั่นด้านเทคโนโลยีสารสนเทศและการสื่อสารโทรคมนาคมแบบครบวงจร (System Integrator หรือ SI) ด้วยทีมงานมืออาชีพที่มีประสบการณ์ เรามุ่งมั่นให้บริการตั้งแต่การออกแบบ พัฒนา ให้คำปรึกษา ติดตั้งระบบ และบริการหลังการขาย เพื่อช่วยให้องค์กรทั้งภาครัฐและเอกชนบรรลุเป้าหมายทางธุรกิจได้อย่างมีประสิทธิภาพและมั่นคงปลอดภัย',
   'company_title' => 'ประวัติบริษัท',
-  'company_description' => 'Admiration stimulated cultivated reasonable be projection possession of. Real no near room ye bred sake if some. Is arranging furnished knowledge agreeable so. Fanny as smile up small. It vulgar chatty simple months turned oh at change of. Astonished set expression solicitude way admiration.',
+  'company_description' => 'บริษัท วิชั่นเอ็ม เทคโนโลยี จำกัด ก่อตั้งขึ้นเมื่อวันที่ 9 มีนาคม 2561 ด้วยทุนจดทะเบียน 10 ล้านบาท บริษัทฯ ดำเนินธุรกิจด้านเทคโนโลยีสารสนเทศและการสื่อสารโทรคมนาคมแบบครบวงจร (System Integrator หรือ SI) ให้บริการลูกค้าทั้งภาครัฐและเอกชน โดยครอบคลุมตั้งแต่การออกแบบ พัฒนา ให้คำปรึกษา ติดตั้งระบบ และบริการหลังการขาย รวมถึงการซ่อมบำรุงรักษาระบบ โดยทีมงานผู้เชี่ยวชาญและมีประสบการณ์',
   'vision_title' => 'วิสัยทัศน์',
-  'vision_description' => 'Admiration stimulated cultivated reasonable be projection possession of. Real no near room ye bred sake if some. Is arranging furnished knowledge agreeable so. Fanny as smile up small. It vulgar chatty simple months turned oh at change of. Astonished set expression solicitude way admiration.',
-  'mission_title' => 'ภารกิจ',
-  'mission_description' => 'Admiration stimulated cultivated reasonable be projection possession of. Real no near room ye bred sake if some. Is arranging furnished knowledge agreeable so. Fanny as smile up small. It vulgar chatty simple months turned oh at change of. Astonished set expression solicitude way admiration.',
+  'vision_description' => 'เป็นผู้นำในการให้บริการโซลูชั่นด้านเทคโนโลยีสารสนเทศและการสื่อสารโทรคมนาคมครบวงจร เพื่อสนับสนุนความสำเร็จและการเติบโตขององค์กรลูกค้า ด้วยนวัตกรรมและความเชี่ยวชาญที่ยั่งยืน',
+  'mission_title' => 'พันธกิจ',
+  'mission_sub_title1' => 'ให้บริการโซลูชั่นด้าน IT และระบบเครือข่ายครบวงจร',
+  'mission_sub_description1' => 'พัฒนาและนำเสนอโซลูชั่นที่ทันสมัยเพื่อเพิ่มประสิทธิภาพและความปลอดภัยของระบบสารสนเทศ',
+  'mission_sub_title2' => 'สร้างคุณค่าให้กับลูกค้าด้วยนวัตกรรม',
+  'mission_sub_description2' => 'ใช้เทคโนโลยีและผลิตภัณฑ์ชั้นนำเพื่อออกแบบระบบที่ตอบโจทย์ความต้องการเฉพาะของแต่ละองค์กร',
+  'mission_sub_title3' => 'เสริมสร้างความมั่นคงด้าน Cyber Security',
+  'mission_sub_description3' => 'ให้คำปรึกษาและติดตั้งระบบรักษาความปลอดภัยทางไซเบอร์เพื่อปกป้องข้อมูลสำคัญขององค์กร',
+  'mission_sub_title4' => 'มุ่งมั่นในบริการหลังการขายและซ่อมบำรุง',
+  'mission_sub_description4' => 'สนับสนุนลูกค้าด้วยบริการหลังการขายที่เป็นเลิศ และการบำรุงรักษาระบบที่ยั่งยืนสนับสนุนลูกค้าด้วยบริการหลังการขายที่เป็นเลิศ และการบำรุงรักษาระบบที่ยั่งยืน',
 ]
 
 ?>

@@ -51,8 +51,8 @@
             </div>
             <div class="fbox-content">
               <h3 class="text-transform-none ls-0 mb-4">@lang('content.phone_title')</h3>
-              <abbr title="Phone Number">@lang('content.phone_office')</abbr> <a href="tel:+66 2103 6165">(+66) 2103 6165</a><br>
-              <abbr title="Phone Number">@lang('content.phone_mobile')</abbr> <a href="tel:+668 7327 4343">(+66)8 7327 4343</a><br>
+              <abbr title="Phone Number">@lang('content.phone_office')</abbr> <a href="tel:+6621036165">(+66) 2103 6165</a><br>
+              <abbr title="Phone Number">@lang('content.phone_mobile')</abbr> <a href="tel:+66661046165">(+66)6 6104 6165</a><br>
             </div>
           </div>
         </div>
@@ -63,7 +63,7 @@
             </div>
             <div class="fbox-content">
               <h3 class="text-transform-none ls-0 mb-4">@lang('content.email_title')</h3>
-              <abbr title="Phone Number">@lang('content.email_title')</abbr> <a href="mailto:Sittichai@visionm.co.th">Sittichai@visionm.co.th</a><br>
+              <abbr title="Phone Number">@lang('content.email_title')</abbr> <a href="mailto:sale&marketing@visionm.co.th">sale&marketing@visionm.co.th</a><br>
             </div>
           </div>
         </div>

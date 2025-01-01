@@ -9,7 +9,7 @@
 @endsection
 
 @section('content')
-  <section id="slider" class="slider-element swiper_wrapper min-vh-60 min-vh-md-100 include-header" data-loop="true">
+  <section id="slider" class="slider-element swiper_wrapper min-vh-60 min-vh-md-100 include-header" data-loop="true" data-autoplay="4000" data-speed="1000">
     <div class="slider-inner">
       <div class="swiper swiper-parent">
         <div class="swiper-wrapper">
@@ -96,7 +96,7 @@
               <div class="heading-block">
                 <h2 class="color-main">Network</h2>
               </div>
-              <p class="text-wrap mb-2">Networking is the backbone of an organization’s effectiveness infrastructure with the need to provide high speed and secure access to users to increasing dependence on internet connectivity for cloud-based services and data the importance of a robust, capable, scalable and security, the organizations also need the resilience supported by an advanced network platform that responds quickly to any circumstance, NetONE’s networking solutions most multiple software defined networking solution.</p>
+              <p class="text-wrap mb-2">Networking is the backbone of an organization’s effectiveness infrastructure with the need to provide high speed and secure access to users to increasing dependence on internet connectivity for cloud-based services and data the importance of a robust, capable, scalable and security, the organizations also need the resilience supported by an advanced network platform that responds quickly to any circumstance, networking solutions most multiple software defined networking solution.</p>
               <button class="button button-3d m-0" type="button">Read more</button>
             </div>
             <div class="col-md-5 ps-md-4">
@@ -123,7 +123,7 @@
               <div class="heading-block">
                 <h2 class="color-main">SECURITY</h2>
               </div>
-              <p class="text-wrap mb-2">NetONE Cybersecurity team has integrated comprehensive security solutions to provide advanced threat protection for customers, Our total solutions can protect threat at the Gateway, Network and Endpoint to defense against threat, malware and provide visibility to IT infrastructure, NetONE Cybersecurity solutions include.</p>
+              <p class="text-wrap mb-2">Cybersecurity team has integrated comprehensive security solutions to provide advanced threat protection for customers, Our total solutions can protect threat at the Gateway, Network and Endpoint to defense against threat, malware and provide visibility to IT infrastructure, NetONE Cybersecurity solutions include.</p>
               <button class="button button-3d m-0" type="button">Read more</button>
             </div>
             <div class="col-md-5 ps-md-4">
@@ -137,9 +137,9 @@
             </div>
             <div class="col-md-7 ps-md-4">
               <div class="heading-block">
-                <h2 class="color-main">COMPUTING AND CLOUD</h2>
+                <h2 class="color-main">VIDEO SURVEILLANCE</h2>
               </div>
-              <p class="text-wrap mb-2">NetONE Provide and Implement System Infrastructure Solution in deep Technical about Hyper Converged Infrastructure and Virtualization System in modern solution that is smarter, simpler, smaller and more efficient than ever before drive revenue & competitive advantage from your data with modern converged infrastructure Including Cloud Computing Solution in IaaS, SaaS, PaaS, Can Provide integration and Migration Environment in Best Practice Design by Landing Zone On Cloud, NetOne Computing and Cloud Solutions include.</p>
+              <p class="text-wrap mb-2">When you install a surveillance solution, you are looking for more than visibility. You want to alleviate concern and strengthen peace of mind in the face of day-to-day activities and unforeseen events. To achieve that, your video security system should give you the tools and confidence to protect products, places, and, most importantly, people. We are experts at incorporating video surveillance systems into a variety of environments that meet your needs, regardless of location size or safety requirements.</p>
               <button class="button button-3d m-0" type="button">Read more</button>
             </div>
           </div>
@@ -204,23 +204,66 @@
       <div class="section p-0 m-0 pt-3">
         <div class="container">
           <div class="text-center">
-            <img src="{{ asset('images/cisco-partner-logo-1.png') }}" class="w-25">
-            <p class="mt-2 mb-1 fs-3">Hyperflex Specialization</p>
-            <p class="fs-3">Customer Experience Specialized</p>
+            <img src="{{ asset('images/cisco-partner-logo-1.svg') }}" class="w-25">
           </div>
         </div>
       </div>
 
       <div class="section m-0 bg-transparent" style="padding: 80px 0">
-        <div class="text-center">
-          <h1>@lang('content.our_partners')</h1>
-        </div>
-        <div id="oc-clients-full" class="owl-carousel owl-carousel-full image-carousel carousel-widget" data-margin="0" data-nav="false" data-pagi="false" data-loop="true" data-autoplay="2000" data-items-xs="2" data-items-sm="3" data-items-md="5" data-items-lg="5" data-items-xl="5">
-          <div class="oc-item"><a href="#"><img src="{{ asset('images/partners/partner-cisco-300x200-1.gif') }}" class="mx-auto w-auto" alt="Partner"></a></div>
-          <div class="oc-item"><a href="#"><img src="{{ asset('images/partners/partner-microsoft-300x200-1.gif') }}" class="mx-auto w-auto" alt="Partner"></a></div>
-          <div class="oc-item"><a href="#"><img src="{{ asset('images/partners/partner-checkpoint-300x200-1.gif') }}" class="mx-auto w-auto" alt="Partner"></a></div>
-          <div class="oc-item"><a href="#"><img src="{{ asset('images/partners/partner-paloalto-300x200-1.gif') }}" class="mx-auto w-auto" alt="Partner"></a></div>
-          <div class="oc-item"><a href="#"><img src="{{ asset('images/partners/partner-vm-300x200-1.gif') }}" class="mx-auto w-auto" alt="Partner"></a></div>
+        <div class="container">
+          <div class="mx-auto">
+            <div class="heading-block text-center mx-auto border-bottom-0">
+              <h2>@lang('content.our_partners')</h2>
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="col-sm-2 col-6 grow">
+              <img src="{{ asset('images/partners/Aruba_Networks-Logo.wine.png') }}" alt="Partner" class="clients">
+            </div>
+            <div class="col-sm-2 col-6 grow">
+              <img src="{{ asset('images/partners/axis-logo.wine.png') }}" alt="Partner" class="clients">
+            </div>
+            <div class="col-sm-2 col-6 grow">
+              <img src="{{ asset('images/partners/Check_Point-Logo.wine.png') }}" alt="Partner" class="clients">
+            </div>
+            <div class="col-sm-2 col-6 grow">
+              <img src="{{ asset('images/partners/Cisco_Systems-Logo.wine.png') }}" alt="Partner" class="clients">
+            </div>
+            <div class="col-sm-2 col-6 grow">
+              <img src="{{ asset('images/partners/F5_Networks-Logo.wine.png') }}" alt="Partner" class="clients">
+            </div>
+            <div class="col-sm-2 col-6 grow">
+              <img src="{{ asset('images/partners/Fortinet-Logo.wine.png') }}" alt="Partner" class="clients">
+            </div>
+            <div class="col-sm-2 col-6 grow">
+              <img src="{{ asset('images/partners/Genetec-Logo.wine.png') }}" alt="Partner" class="clients">
+            </div>
+            <div class="col-sm-2 col-6 grow">
+              <img src="{{ asset('images/partners/H3C-Logo.wine.png') }}" alt="Partner" class="clients">
+            </div>
+            <div class="col-sm-2 col-6 grow">
+              <img src="{{ asset('images/partners/Hewlett_Packard_Enterprise-Logo.wine.png') }}" alt="Partner" class="clients">
+            </div>
+            <div class="col-sm-2 col-6 grow">
+              <img src="{{ asset('images/partners/Palo_Alto_Networks-Logo.wine.png') }}" alt="Partner" class="clients">
+            </div>
+            <div class="col-sm-2 col-6 grow">
+              <img src="{{ asset('images/partners/Robert_Bosch_GmbH-Logo.wine.png') }}" alt="Partner" class="clients">
+            </div>
+            <div class="col-sm-2 col-6 grow">
+              <img src="{{ asset('images/partners/SolarWinds-Logo.wine.png') }}" alt="Partner" class="clients">
+            </div>
+            <div class="col-sm-2 col-6 grow">
+              <img src="{{ asset('images/partners/Trellix-Logo.wine.png') }}" alt="Partner" class="clients">
+            </div>
+            <div class="col-sm-2 col-6 grow">
+              <img src="{{ asset('images/partners/Trend_Micro-Logo.wine.png') }}" alt="Partner" class="clients">
+            </div>
+            <div class="col-sm-2 col-6 grow">
+              <img src="{{ asset('images/partners/VMware-Logo.wine.png') }}" alt="Partner" class="clients">
+            </div>
+
+          </div>
         </div>
       </div>
 

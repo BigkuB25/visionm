@@ -14,7 +14,7 @@ return [
   'address_content_1' => '9/3-4, 3rd Floor, Vorasin Building,<br> Soi Yasoop 2, Vipavadirangsit Road, Chomphon, Jatujak, Bangkok 10900',
   'phone_title' => 'Telephone',
   'phone_office' => 'Office',
-  'phone_mobile' => 'Mobile',
+  'phone_mobile' => 'Hotline',
   'email_title' => 'Email'
 ]
 

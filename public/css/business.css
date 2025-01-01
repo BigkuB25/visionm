@@ -283,7 +283,7 @@
 
 .feature-box h3 span.subtitle { font-size: 14px; }
 
-.feature-box.fbox-plain .fbox-icon img { height: 50px; }
+.feature-box.fbox-plain .fbox-icon img { height: auto; }
 
 .col-padding {padding: 100px 60px !important; }
 

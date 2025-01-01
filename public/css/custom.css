@@ -26,4 +26,18 @@
   color: #ffbe48 !important;
 }
 
+.clients {
+  max-height: 150px;
+}
 
+.grow img{
+  transition: 1s ease;
+}
+
+.grow img:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+  cursor: pointer;
+}

@@ -3,7 +3,7 @@
 return [
   'name' => 'Name',
   'email' => 'Email',
-  'phone' => 'Phone',
+  'phone' => 'Hotline',
   'subject' => 'Subject',
   'message' => 'Message',
 ]
