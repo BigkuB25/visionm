@@ -206,15 +206,15 @@
           <div class="text-center">
             <img src="{{ asset('images/cisco-partner-logo-1.png') }}" class="w-25">
           </div>
-          <div class="row text-center">
-            <div class="col-sm-4">
-              <img src="{{ asset('images/ccnp-enterprise-logo.png') }}">
+          <div class="row ">
+            <div class="col-sm-4 text-end">
+              <img src="{{ asset('images/ccnp-enterprise-logo.png') }}" class="w-50">
+            </div>
+            <div class="col-sm-4 text-center">
+              <img src="{{ asset('images/ccnp-data-center-logo.png') }}" class="w-50">
             </div>
             <div class="col-sm-4">
-              <img src="{{ asset('images/ccnp-data-center-logo.png') }}">
-            </div>
-            <div class="col-sm-4">
-              <img src="{{ asset('images/ccnp-security-logo.png') }}">
+              <img src="{{ asset('images/ccnp-security-logo.png') }}" class="w-50">
             </div>
           </div>
         </div>
