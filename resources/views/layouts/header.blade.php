@@ -16,7 +16,7 @@
 	<link rel="stylesheet" href="{{ asset('css/swiper.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/business.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/custom.css') }}">
-  <link href="{{ asset('images/visionm-fav.png') }}" rel="icon">
+  <link href="{{ asset('favicon.ico') }}" rel="icon">
 
 	@yield('css')
 

@@ -41,3 +41,7 @@
   transition: 1s ease;
   cursor: pointer;
 }
+
+.w-68 {
+  width: 68% !important;
+}

@@ -76,7 +76,7 @@
           </div>
           <div class="col-md-4">
             <div class="row">
-              <img class="w-75" src="{{ asset('images/image3.jpg') }}">
+              <img class="w-68" src="{{ asset('images/image3.jpg') }}">
             </div>
           </div>
           <div class="col-md-5">
@@ -100,13 +100,13 @@
               <button class="button button-3d m-0" type="button">Read more</button>
             </div>
             <div class="col-md-5 ps-md-4">
-              <img src="{{ asset('images/global-network-online-communication-connection-63.jpg') }}" alt="">
+              <img src="{{ asset('images/solution-network.png') }}" alt="Network">
             </div>
           </div>
           <div class="divider"></div>
           <div class="row">
             <div class="col-md-5 ">
-              <img src="{{ asset('images/global-network-online-communication-connection-63.jpg') }}" alt="">
+              <img src="{{ asset('images/solution-mobility.png') }}" alt="MOBILITY AND WIRELESS">
             </div>
             <div class="col-md-7 ps-md-4">
               <div class="heading-block">
@@ -123,17 +123,17 @@
               <div class="heading-block">
                 <h2 class="color-main">SECURITY</h2>
               </div>
-              <p class="text-wrap mb-2">Cybersecurity team has integrated comprehensive security solutions to provide advanced threat protection for customers, Our total solutions can protect threat at the Gateway, Network and Endpoint to defense against threat, malware and provide visibility to IT infrastructure, NetONE Cybersecurity solutions include.</p>
+              <p class="text-wrap mb-2">Cybersecurity team has integrated comprehensive security solutions to provide advanced threat protection for customers, Our total solutions can protect threat at the Gateway, Network and Endpoint to defense against threat, malware and provide visibility to IT infrastructure, VisionM Cybersecurity solutions include.</p>
               <button class="button button-3d m-0" type="button">Read more</button>
             </div>
             <div class="col-md-5 ps-md-4">
-              <img src="{{ asset('images/global-network-online-communication-connection-63.jpg') }}" alt="">
+              <img src="{{ asset('images/solution-security.png') }}" alt="SECURITY">
             </div>
           </div>
           <div class="divider"></div>
           <div class="row">
             <div class="col-md-5">
-              <img src="{{ asset('images/global-network-online-communication-connection-63.jpg') }}" alt="">
+              <img src="{{ asset('images/solution-video.png') }}" alt="VIDEO SURVEILLANCE">
             </div>
             <div class="col-md-7 ps-md-4">
               <div class="heading-block">
@@ -204,7 +204,18 @@
       <div class="section p-0 m-0 pt-3">
         <div class="container">
           <div class="text-center">
-            <img src="{{ asset('images/cisco-partner-logo-1.svg') }}" class="w-25">
+            <img src="{{ asset('images/cisco-partner-logo-1.png') }}" class="w-25">
+          </div>
+          <div class="row text-center">
+            <div class="col-sm-4">
+              <img src="{{ asset('images/ccnp-enterprise-logo.png') }}">
+            </div>
+            <div class="col-sm-4">
+              <img src="{{ asset('images/ccnp-data-center-logo.png') }}">
+            </div>
+            <div class="col-sm-4">
+              <img src="{{ asset('images/ccnp-security-logo.png') }}">
+            </div>
           </div>
         </div>
       </div>
